@@ -1,0 +1,28 @@
+div.toggle {
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+}
+
+div.directory_item {
+  display: inline-block;
+  margin: 1em 2em;
+  vertical-align: top;
+}
+
+div.directory-item-tooltip {
+  position: absolute;
+  z-index: 3000;
+  padding: 2em;
+}
+
+div.directory-search input {
+  display: inline;
+  max-width: 50%;
+  vertical-align: bottom;
+}
+
+div.directory-forms {
+  border-top: 1px solid;
+  margin: 1em 0;
+}
